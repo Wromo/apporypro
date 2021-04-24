@@ -1,0 +1,1 @@
+!function(t){var e=t("#apporypro-color-scheme-css"),c=wp.customize;e.length||(e=t("head").append('<style type="text/css" id="apporypro-color-scheme-css" />').find("#apporypro-color-scheme-css")),c("blogname",function(e){e.bind(function(e){t(".site-title a").text(e)})}),c("blogdescription",function(e){e.bind(function(e){t(".site-description").text(e)})})}(jQuery);
